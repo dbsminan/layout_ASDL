@@ -481,69 +481,69 @@ x4.connect('t1p2', destination=d_st7['o2'])
 
 #layer (13/1),(13/9),(14/11)
 rectangle1 = c << create_rectangle(60, 80, 13, 1)
-rectangle1 = move_rotate(rectangle1, -225, -10, 0)
+rectangle1 = move_rotate(rectangle1, -225.55, -10.4, 0)
 
 rectangle2 = c << create_rectangle(60, 80, 13, 1)
-rectangle2 = move_rotate(rectangle2, -125, -10, 0)
+rectangle2 = move_rotate(rectangle2, -125.55, -10.4, 0)
 
 rectangle3 = c << create_rectangle(60, 80, 13, 1)
-rectangle3 = move_rotate(rectangle3, -25, -10, 0)
+rectangle3 = move_rotate(rectangle3, -25.55, -10.4, 0)
 
 rectangle4 = c << create_rectangle(60, 80, 13, 1)
-rectangle4 = move_rotate(rectangle4, 75, -10, 0)
+rectangle4 = move_rotate(rectangle4, 74.45, -10.4, 0)
 
 rectangle5 = c << create_rectangle(60, 80, 13, 1)
-rectangle5 = move_rotate(rectangle5, 175, -10, 0)
+rectangle5 = move_rotate(rectangle5, 174.45, -10.4, 0)
 
 rectangle6 = c << create_rectangle(60, 80, 13, 1)
-rectangle6 = move_rotate(rectangle6, -225, -1830, 0)
+rectangle6 = move_rotate(rectangle6, -225.55, -1830.4, 0)
 
 rectangle7 = c << create_rectangle(60, 80, 13, 1)
-rectangle7 = move_rotate(rectangle7, -125, -1830, 0)
+rectangle7 = move_rotate(rectangle7, -125.55, -1830.4, 0)
 
 rectangle8 = c << create_rectangle(60, 80, 13, 1)
-rectangle8 = move_rotate(rectangle8, -25, -1830, 0)
+rectangle8 = move_rotate(rectangle8, -25.55, -1830.4, 0)
 
 rectangle9 = c << create_rectangle(60, 80, 13, 1)
-rectangle9 = move_rotate(rectangle9, 75, -1830, 0)
+rectangle9 = move_rotate(rectangle9, 74.45, -1830.4, 0)
 
 rectangle10 = c << create_rectangle(60, 80, 13, 1)
-rectangle10 = move_rotate(rectangle10, 175, -1830, 0)
+rectangle10 = move_rotate(rectangle10, 174.45, -1830.4, 0)
 
 Taper1 = c << create_taper(100, 312.3, 460, 13, 9)
-Taper1 = move_rotate(Taper1, 5, -110, 90)
+Taper1 = move_rotate(Taper1, 4.45, -110.4, 90)
 
 Taper2 = c << create_taper(100, 312.3, 460, 13, 9)
-Taper2 = move_rotate(Taper2, 5, -1650, 270)
+Taper2 = move_rotate(Taper2, 4.45, -1650.4, 270)
 
 Taper3 = c << create_taper(100, 5.5, 60, 13, 9)
-Taper3 = move_rotate(Taper3, -95, -110, 90)
+Taper3 = move_rotate(Taper3, -95.55, -110.4, 90)
 
 Taper4 = c << create_taper(100, 187.7, 60, 13, 9)
-Taper4 = move_rotate(Taper4, 5, -110, 90)
+Taper4 = move_rotate(Taper4, 4.45, -110.4, 90)
 
 Taper5 = c << create_taper(100, 5.5, 60, 13, 9)
-Taper5 = move_rotate(Taper5, 105, -110, 90)
+Taper5 = move_rotate(Taper5, 104.45, -110.4, 90)
 
 Taper6 = c << create_taper(100, 5.5, 60, 13, 9)
-Taper6 = move_rotate(Taper6, -95, -1650, 270)
+Taper6 = move_rotate(Taper6, -95.55, -1650.4, 270)
 
 Taper7 = c << create_taper(100, 187.7, 60, 13, 9)
-Taper7 = move_rotate(Taper7, 5, -1650, 270)
+Taper7 = move_rotate(Taper7, 4.45, -1650.4, 270)
 
 Taper8 = c << create_taper(100, 5.5, 60, 13, 9)
-Taper8 = move_rotate(Taper8, 105, -1650, 270)
+Taper8 = move_rotate(Taper8, 104.45, -1650.4, 270)
 
-waveguide1 = c << create_waveguide_straight(1540, 112, 13, 9)
-waveguide1 = move_rotate(waveguide1, -95.15, -1650, 90)
+waveguide1 = c << create_waveguide_straight(1540, 112.3, 13, 9)
+waveguide1 = move_rotate(waveguide1, -95.55, -1650.4, 90)
 
-waveguide2 = c << create_waveguide_straight(1540, 112, 13, 9)
-waveguide2 = move_rotate(waveguide2, 105.15, -1650, 90)
+waveguide2 = c << create_waveguide_straight(1540, 112.3, 13, 9)
+waveguide2 = move_rotate(waveguide2, 104.45, -1650.4, 90)
 
-parallelogram1 = c.add_polygon([(-151.15, -110),(-101.15, -110),(-165, -10),(-225, -10)],layer=(13, 9))
-parallelogram2 = c.add_polygon([(111.15, -110),(161.15, -110),(235, -10),(185, -10)],layer=(13, 9))
-parallelogram3 = c.add_polygon([(-225, -1750),(-165, -1750),(-101.15, -1650),(-151.15, -1650)],layer=(13, 9))
-parallelogram4 = c.add_polygon([(185, -1750),(235, -1750),(161.15, -1650),(111.15, -1650)],layer=(13, 9))
+parallelogram1 = c.add_polygon([(-151.15, -110.4),(-101.15, -110.4),(-165, -10.4),(-225, -10.4)],layer=(13, 9))
+parallelogram2 = c.add_polygon([(110.6, -110.4),(160.6, -110.4),(234.45, -10.4),(174.45, -10.4)],layer=(13, 9))
+parallelogram3 = c.add_polygon([(-225.55, -1750.4),(-165.55, -1750.4),(-101.7, -1650.4),(-151.7, -1650.4)],layer=(13, 9))
+parallelogram4 = c.add_polygon([(174.45, -1750.4),(234.45, -1750.4),(160.6, -1650.4),(110.6, -1650.4)],layer=(13, 9))
 
 Circle = create_circle(0.155, 14, 11)
 Circle1_array = create_array(Circle, 0.6, 0.6, 3, 58)
