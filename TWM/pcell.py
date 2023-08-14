@@ -118,18 +118,18 @@ taper4 = c << create_taper(100,60,5.5,11,1)
 taper4 = move_rotate(taper4, 104.45, -1750.4, 90)
 
 #layer 10,10의 circle array
-Circle = create_circle(0.155, 14, 11)
-Circle1_array = create_array(Circle, 0.6, 0.6, 3, 58)
-Circle1_array = create_array(Circle1_array, 41.8, 0, 2, 1)
-Circle1_array = create_array(Circle1_array, 100, 0, 4, 1)
-circle1_array = c << Circle1_array
-circle1_array = move_rotate(circle1_array, -167.05, 12.5, 0)
+CIRCLE = create_circle(0.1245,10,0)
+CIRCLE_ARRAY1 = create_array(CIRCLE,0.6,0.6,3,58)
+CIRCLE_ARRAY1 = create_array(CIRCLE_ARRAY1,41.8,0,2,1)
+CIRCLE_ARRAY1 = create_array(CIRCLE_ARRAY1,100,0,4,1)
+circle_array1 = c << CIRCLE_ARRAY1
+circle_array1 = move_rotate(circle_array1, -167.0505, 12.5,0)
 
-Circle2_array = create_array(Circle, 0.6, 0.6, 3, 2500)
-Circle2_array = create_array(Circle2_array, 5.2, 0, 2, 1)
-Circle2_array = create_array(Circle2_array, 194.8, 0, 2, 1)
-circle2_array = c << Circle2_array
-circle2_array = move_rotate(circle2_array, -103.2, -1630.1, 0)
+CIRCLE_ARRAY2 = create_array(CIRCLE,0.6,0.6,3,2500)
+CIRCLE_ARRAY2 = create_array(CIRCLE_ARRAY2,5.2,0,2,1)
+CIRCLE_ARRAY2 = create_array(CIRCLE_ARRAY2,200,0,2,1)
+circle_array2 = c << CIRCLE_ARRAY2
+circle_array2 = move_rotate(circle_array2, -103.2, -1630.1,0)
 
 #layer (37/4),(37/5)
 #taper 생성
@@ -546,41 +546,17 @@ parallelogram3 = c.add_polygon([(-225, -1750),(-165, -1750),(-101.15, -1650),(-1
 parallelogram4 = c.add_polygon([(185, -1750),(235, -1750),(161.15, -1650),(111.15, -1650)],layer=(13, 9))
 
 Circle = create_circle(0.155, 14, 11)
-circle1_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle1_array = move_rotate(circle1_array, -166.5, 12.9, 0)
+Circle1_array = create_array(Circle, 0.6, 0.6, 3, 58)
+Circle1_array = create_array(Circle1_array, 41.8, 0, 2, 1)
+Circle1_array = create_array(Circle1_array, 100, 0, 4, 1)
+circle1_array = c << Circle1_array
+circle1_array = move_rotate(circle1_array, -167.05, 12.5, 0)
 
-circle2_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle2_array = move_rotate(circle2_array, -123.5, 12.9, 0)
-
-circle3_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle3_array = move_rotate(circle3_array, -66.5, 12.9, 0)
-
-circle4_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle4_array = move_rotate(circle4_array, -23.5, 12.9, 0)
-
-circle5_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle5_array = move_rotate(circle5_array, 33.5, 12.9, 0)
-
-circle6_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle6_array = move_rotate(circle6_array, 76.5, 12.9, 0)
-
-circle7_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle7_array = move_rotate(circle7_array, 133.5, 12.9, 0)
-
-circle8_array = c << create_array(Circle, 0.6, 0.6, 3, 58)
-circle8_array = move_rotate(circle8_array, 176.5, 12.9, 0)
-
-circle9_array = c << create_array(Circle, 0.6, 0.6, 3, 2500)
-circle9_array = move_rotate(circle9_array, -102.65, -1629.7, 0)
-
-circle10_array = c << create_array(Circle, 0.6, 0.6, 3, 2500)
-circle10_array = move_rotate(circle10_array, -97.45, -1629.7, 0)
-
-circle11_array = c << create_array(Circle, 0.6, 0.6, 3, 2500)
-circle11_array = move_rotate(circle11_array, 97.35, -1629.7, 0)
-
-circle12_array = c << create_array(Circle, 0.6, 0.6, 3, 2500)
-circle12_array = move_rotate(circle12_array, 102.55, -1629.7, 0)
+Circle2_array = create_array(Circle, 0.6, 0.6, 3, 2500)
+Circle2_array = create_array(Circle2_array, 5.2, 0, 2, 1)
+Circle2_array = create_array(Circle2_array, 200, 0, 2, 1)
+circle2_array = c << Circle2_array
+circle2_array = move_rotate(circle2_array, -103.2, -1630.1, 0)
 
 
 c.plot()
