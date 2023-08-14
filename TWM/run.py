@@ -1,4 +1,4 @@
 from pcell import *
 
-d.plot()
-d.show()
+c.plot()
+c.show()

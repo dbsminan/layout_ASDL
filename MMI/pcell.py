@@ -1,4 +1,4 @@
-from function import *
+from MMI.function import *
 
 #grating coupler 위치, 방향 변수
 x_position = 0
